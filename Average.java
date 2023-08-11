@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class Average{
     
-    
+
+    /*function to calculate average of three numbers */
     public static int avgCalc(int a, int b, int c)
     {
         int avg=(a+b+c)/3;
