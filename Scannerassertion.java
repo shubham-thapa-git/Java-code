@@ -27,6 +27,7 @@ public class Scannerassertion {
 			System.out.println(
 				"No integers were input. Mean cannot be calculated.");
 		}
+		sc.close();
 	}
 }
 
