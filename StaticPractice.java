@@ -20,7 +20,7 @@ public class StaticPractice {
         /* j can be accessed through object of class as its not a static variable
          * i cannot be accessed through the object because its static, constructors cannot access static variables.
          */
-        System.out.println(var.i);
+        System.out.println(var.j);
         System.out.println(StaticPractice.i);
     }
 }
