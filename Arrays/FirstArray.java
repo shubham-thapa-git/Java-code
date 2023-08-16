@@ -10,14 +10,23 @@ public class FirstArray {
         System.out.println("How many numbers do you want to input?");
         int n = input.nextInt();
         System.out.println("Okay, now input a number and press Enter.");
-        for(int i=0;i<=n;i++){
+        if(n>10){
+            System.out.println("Invalid size! Array can only support 10 numbers");
+            input.close();
+            return;
+        }
+        else{
+            for(int i=0;i<n;i++){
             arrayTest[i] = input.nextInt();
         }
         for(int i=0;i<=arrayTest.length;i++)
         {
             System.out.println("Element of arrays are "+ arrayTest[i]);
         }
-        input.close();
+        
+    }
+    input.close();
+
     }
     }
     
