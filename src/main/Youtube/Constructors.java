@@ -27,6 +27,7 @@ public class Constructors {
          */
         Constructors con = new Constructors();
         Constructors con1 = new Constructors("James", "Blunt");
+        con.display();
         con1.display();
     }
 }
