@@ -19,10 +19,22 @@ public class FirstArray {
             for(int i=0;i<n;i++){
             arrayTest[i] = input.nextInt();
         }
-        for(int i=0;i<=arrayTest.length;i++)
+        try{ for(int i=0;i<=arrayTest.length;i++)
         {
-            System.out.println("Element of arrays are "+ arrayTest[i]);
+            int breakvalue = 0;
+            if(arrayTest[i]!=breakvalue){
+                System.out.println("Element of array in position " + i +" is"+ " "+ arrayTest[i]); 
+            }
+            else{
+                System.out.println("The "+ i + " index of the array and subsequent indexes" + " are empty");
+                break;
         }
+            }
+}
+    catch(Exception e){
+        //System.out.println(e);
+        e.printStackTrace();
+    }
         
     }
     input.close();

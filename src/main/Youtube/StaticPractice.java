@@ -23,5 +23,6 @@ public class StaticPractice {
          */
         System.out.println(var.j);
         System.out.println(StaticPractice.i);
+        System.out.println(var2);
     }
 }
