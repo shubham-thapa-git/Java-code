@@ -1,3 +1,4 @@
+package src.main.Youtube;
 // Java program to read some values using Scanner
 // class and print their mean.
 import java.util.Scanner;

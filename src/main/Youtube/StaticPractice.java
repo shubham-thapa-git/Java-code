@@ -1,3 +1,4 @@
+package src.main.Youtube;
 public class StaticPractice {
    /*static variable belongs to class and is stored in memory once so,
     * when a static value is incremented in the constructor the value of that variable is updated.

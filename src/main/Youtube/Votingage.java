@@ -1,3 +1,4 @@
+package src.main.Youtube;
 import java.util.Scanner;   
 public class Votingage {
     public static int voteValid(int a)
