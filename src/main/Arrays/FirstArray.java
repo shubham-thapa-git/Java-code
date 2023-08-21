@@ -26,7 +26,7 @@ public class FirstArray {
                 System.out.println("Element of array in position " + i +" is"+ " "+ arrayTest[i]); 
             }
             else{
-                System.out.println("The "+ i + " index of the array and subsequent indexes" + " are empty");
+                System.out.println("The "+ i + " index of the array and subsequent indexes further" + " are empty");
                 break;
         }
             }
